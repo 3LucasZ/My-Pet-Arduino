@@ -35,9 +35,9 @@ How to play:
 ![IMG_1261](https://user-images.githubusercontent.com/72239682/125380326-e5f22680-e346-11eb-92bd-1d29f4684639.GIF)
 - Play GIF:\
 ![Hnet com-image 2](https://user-images.githubusercontent.com/72239682/125383399-2ef8a980-e34c-11eb-8e5f-da17f2aa0e3d.gif)
-- Sleep GIF:\
-![Hnet com-image 3](https://user-images.githubusercontent.com/72239682/125383427-3c159880-e34c-11eb-9e60-7500b264df80.gif)
 - Clean GIF:\
+![Hnet com-image 3](https://user-images.githubusercontent.com/72239682/125383427-3c159880-e34c-11eb-9e60-7500b264df80.gif)
+- Sleep GIF:\
 ![Hnet com-image 5](https://user-images.githubusercontent.com/72239682/125384602-070a4580-e34e-11eb-9a3e-e3b9429c337f.gif)
 
 
