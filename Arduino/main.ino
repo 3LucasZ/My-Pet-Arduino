@@ -25,7 +25,10 @@
 const char *GESTURES[] = {
     "feed", "play", "clean", "sleep"
 };
-
+// In built RGB Led pins
+const int RED_PIN = 22;
+const int GREEN_PIN = 23;
+const int BLUE_PIN = 24;
 
 //==============================================================================
 // Capture variables
@@ -67,8 +70,9 @@ byte tensorArena[tensorArenaSize];
 // Setup / Loop
 //==============================================================================
 void setup() {
-  
-  pinMode(LED_BUILTIN, OUTPUT);
+  pinMode(RED_PIN, OUTPUT);
+  pinMode(GREEN_PIN, OUTPUT);
+  pinMode(BLUE_PIN, OUTPUT);
         
   Serial.begin(9600);
 
@@ -218,6 +222,20 @@ void loop() {
               if (maxValue > 0.5) {
                 //signal for winning action
                 actionDetectedChar.writeValue(maxIndex);
+                //set RGB color
+                if (maxIndex == 0) {
+                  set_RGB(50,50,50);
+                }
+                else if (maxIndex == 1) {
+                  set_RGB(255, 100, 0);
+                }
+                else if (maxIndex == 2) {
+                  set_RGB(0, 255, 200);
+                }
+                else if (maxIndex == 3) {
+                  set_RGB(50, 0, 255);
+                }
+                
                 Serial.println();
               }
               else {
@@ -232,6 +250,8 @@ void loop() {
               Serial.print("Waiting...");
               //signal for waiting
               actionDetectedChar.writeValue(5);
+              //reset RGB
+              set_RGB(0, 0, 0);
             }
           }
         }
@@ -241,4 +261,9 @@ void loop() {
       Serial.println(central.address());
     }
   }
+}
+void set_RGB(int red, int green, int blue) {
+  analogWrite(RED_PIN, 255-red);
+  analogWrite(GREEN_PIN, 255-green);
+  analogWrite(BLUE_PIN, 255-blue);
 }
