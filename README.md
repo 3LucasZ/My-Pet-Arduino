@@ -32,6 +32,7 @@ Select your Arduino
 Press pair
 3) Take care of the Arduino:
 Feed GIF:
+![IMG_1261](https://user-images.githubusercontent.com/72239682/125380326-e5f22680-e346-11eb-92bd-1d29f4684639.GIF)
 Play GIF:
 Sleep GIF:
 Clean GIF:
