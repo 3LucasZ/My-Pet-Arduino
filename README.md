@@ -25,11 +25,11 @@ On google chrome, go to the link: 3LucasZ.github.io/My-Pet-Arduino/Web/index.htm
 
 How to play:
 1) About:
-The Arduino is your new pet! Take care of it well by giving it food, play, cleaning, and sleep. If it is neglected too much, it will disconnect and be very sad.
+- The Arduino is your new pet! Take care of it well by giving it food, play, cleaning, and sleep. If it is neglected too much, it will disconnect and be very sad.
 2) Connect to the Arduino with BLE:
-Click the connect button on the top
-Select your Arduino
-Press pair
+- Click the connect button on the top
+- Select your Arduino
+- Press pair
 3) Take care of the Arduino:
 Feed GIF:
 ![IMG_1261](https://user-images.githubusercontent.com/72239682/125380326-e5f22680-e346-11eb-92bd-1d29f4684639.GIF)
