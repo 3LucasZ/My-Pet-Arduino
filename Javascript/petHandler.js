@@ -7,7 +7,7 @@ class ArduinoPet {
     petContainer.innerHTML +=
       `
         <div class="container pet-container" style="position: relative"> 
-          <img src="../Images/ArduinoPet.jpg" class="pet-image">
+          <img src="../Images/ArduinoPet2.jpg" class="pet-image">
           <img src="` + FacesPath + `Default.jpg" class="pet-face" id="face-img">
                 
           <input 
