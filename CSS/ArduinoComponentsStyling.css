@@ -1,0 +1,49 @@
+#microphone-popover {
+    position: absolute;
+    width: 13.8%;
+    left: 45.5%;
+    top: 33.3%;
+}
+#microphone-popover:focus {
+    box-shadow: 0 0 0 3px lightskyblue;
+}
+#IMU-popover {
+    position: absolute;
+    width: 16%;
+    left: 28%;
+    top: 43%;
+}
+#IMU-popover:focus {
+    box-shadow: 0 0 0 3px orange;
+}
+#SurroundingsSensor-popover {
+    position: absolute;
+    width: 9.5%;
+    left: 46%;
+    top: 42.2%;
+}
+#SurroundingsSensor-popover:focus {
+    box-shadow: 0 0 0 3px Red;
+}
+#ClimateSensor-popover {
+    position: absolute;
+    width: 11.3%;
+    left: 34%;
+    top: 57%;
+}
+#ClimateSensor-popover:focus {
+    box-shadow: 0 0 0 3px greenyellow;
+}
+#RGB-LED {
+    position: absolute;
+    width: 6.5%;
+    padding-top: 6%;
+    left: 28%;
+    top: 33.4%;
+}
+.OffLED-bg {
+  background-color: #F7DC96;
+}
+
+
+

@@ -1,0 +1,71 @@
+/* Header background and borders */
+.ArduinoDark-bd {
+  border-color: rgb(0, 100, 104) !important;
+}
+.Arduino-bg {
+  background-color: rgb(23, 161, 165) !important;
+}
+.ArduinoLight-bg {
+  background-color: rgb(77, 183, 187) !important;
+}
+/* Meter backgrounds */
+.PlayGold-bg {
+  background-color: rgb(248, 157, 38);
+}
+.EatGrey-bg {
+  background-color: #c7c3bd;
+}
+.CleanBlue-bg {
+  background-color: #CFF0FF;
+}
+.SleepPurple-bg {
+  background-color: #444FAD;
+}
+.White-bg {
+  background-color: white !important;
+}
+/* Meter borders */
+.PlayGold-bd {
+  border-color: rgb(237, 188, 18) !important;
+}
+.EatGrey-bd {
+  border-color: #969696 !important;
+}
+.CleanBlue-bd {
+  border-color: #3498DB !important;
+}
+.SleepPurple-bd {
+  border-color: #120377 !important;
+}
+.RemoveLeftRounded-bd {
+  border-radius: 0px 10px 10px 0px;
+}
+
+/* Meter spacing */
+.remove-left-padding {
+  padding-left: 0 !important;
+}
+.remove-right-padding {
+  padding-right: 0 !important;
+}
+.add-left-margin {
+  margin-left: 15px !important;
+}
+.shift-right {
+  transform: translateX(6.4px);
+}
+.high-z-index {
+  z-index: 2000 !important;
+}
+.low-z-index {
+  z-index: 1 !important;
+}
+.responsive-width {
+  width: calc(100% - 67px);
+}
+/* Images */
+.avatar {
+  width: 52px;
+  height: 52px;
+  border-radius: 50%;
+}

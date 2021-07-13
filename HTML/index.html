@@ -1,0 +1,84 @@
+<!doctype html>
+  <html lang="en">
+    <head>
+      <!-- Required meta tags -->
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      
+      <!-- Bootstrap CSS + custom CSS-->
+      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+      <link rel="stylesheet" href="../CSS/customize.css">
+      <link rel="stylesheet" href="../CSS/animations.css">
+      <link rel="stylesheet" href="../CSS/ArduinoComponentsStyling.css">
+      <link rel="stylesheet" href="../CSS/PetComponents.css">
+      
+      <title>My Pet Arduino</title>
+    </head>
+
+    <body>
+      <!-- fluid container so that header fills the top,-->
+      <div class="container-fluid">
+        <!-- Create header-->
+        <div class="row">
+          <div class="col-7 | Arduino-bg border ArduinoDark-bd border-4">
+            <div class="d-flex h-100 align-items-center justify-content-center">
+              <h1 class="text-center">My Pet Arduino</h1>
+            </div>
+          </div>
+          <div class="text-center col-2 border-top border-bottom ArduinoDark-bd border-4">
+            <div class = "row border-bottom border-2  ArduinoDark-bd">
+              <button type="button" class="rounded-0 ArduinoLight-bg btn btn-sm" onclick="connectToBle()">Connect</button>
+            </div>
+            <div class="row border-top border-2 ArduinoDark-bd">
+                <button type="button" class="rounded-0 ArduinoLight-bg btn btn-sm" onclick="disconnectToBle()">Disconnect</button>
+            </div>
+          </div>
+          <div class="col-3 Arduino-bg border ArduinoDark-bd border-4">
+            <div class="d-flex h-100 align-items-center justify-content-center">
+              <h5 class="text-center"><div id="statusDiv">Status: Disconnected</div>
+            </div>
+          </div>
+        </div>
+        <!-- Create content -->
+        <div class="row">
+          <div class="col-5 | remove-left-padding remove-right-padding">
+            <div class="d-grid gap-3" id="meters" style="padding-top: 19px;">
+              <!--The meters UI will be added here with JS-->
+            </div>
+          </div>
+          <div class="col-7">
+            <!--Display most recent action-->
+            <div class="row">
+              <h1 class="text-center"><div id="actionDiv">Action: none</div></h1>
+            </div>
+            <div class="row" id="petContainer">
+                <!--The pet UI will be added here with JS-->
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Put all js files after all HTML has loaded to prevent accessing unloaded elements-->
+      <!-- some files require other files to work, so order of the files is important-->
+      
+      <!-- Constants and globals-->
+      <script src="../Javascript/constants_and_globals.js"></script>
+      
+      <!-- Bootstrap Bundle with Popper -->
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+      
+      <!--p5.ble.js-->
+      <script src="https://unpkg.com/p5ble@0.0.4/dist/p5.ble.js"></script>
+
+      <!--BLE.js, dependent on p5.ble.js -->
+      <script src="../Javascript/BLE.js"></script>
+
+      <!-- Main game script, dependent on BLE.js -->
+      <script src="../Javascript/main.js"></script>
+
+      <!-- meters script, dependent on main.js -->
+      <script src="../Javascript/meterHandler.js"></script>
+
+      <!-- pet script, dependent on main.js -->
+      <script src="../Javascript/petHandler.js"></script>
+    </body>
+  </html>

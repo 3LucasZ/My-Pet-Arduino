@@ -1,0 +1,13 @@
+.pet-container {
+  width: 40%;
+}
+.pet-image {
+  width: 100%;
+}
+.pet-face {
+  width: 50%;
+  position: absolute;
+  left: 25%;
+  top: 8.5%;
+}
+
