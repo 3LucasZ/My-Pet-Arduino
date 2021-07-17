@@ -2,7 +2,8 @@
 My-Pet-Arduino Project!
 - Turn your Arduino into a friendly pet.
 - This project was built with the Arduino Nano 33 BLE Sense Board.
-- Entry for the Tensorflow Lite for Microcontrollers Challenge
+- Entry for the Tensorflow Lite for Microcontrollers Challenge.
+
 How to use:
 1) Get the Materials:
 - An Arduino Nano 33 BLE Sense Board
