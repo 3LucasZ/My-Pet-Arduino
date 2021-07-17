@@ -21,7 +21,7 @@ How to use:
 - Upload main.ino to the Arduino Board.
 - The code should be running on the Arduino now.
 4) Interact with the website:
-- On google chrome, go to the link: 3LucasZ.github.io/My-Pet-Arduino/Web/index.html
+- On google chrome, go to the link: 3LucasZ.github.io/My-Pet-Arduino/HTML/index.html
 
 How to play:
 1) About:
