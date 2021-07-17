@@ -14,6 +14,7 @@ How to use:
 - Open the Arduino IDE and download:
 - Arduino_TensorFlowLite Version 2.4.0-ALPHA Library
 - ArduinoBLE Version 1.2.1 Library
+- Arduino_LSM9DS1 Version 1.1.0 Library
 - Arduino Mbed OS Nano Boards Version 2.2.0 in the Boards Manager
 3) Flash the code to the Arduino:
 - Download the Arduino folder from this repository, and open it in the Arduino IDE.
@@ -43,5 +44,12 @@ How to play:
  - GIF:\
  ![IMG_1271](https://user-images.githubusercontent.com/72239682/126031693-65152aaa-a979-4996-a2a4-2abcac813ae9.gif)
 
-
-
+Technologies used:
+1) Website
+ - HTML, Javascript, CSS
+ - Bootstrap, p5.ble.js
+2) Machine Learning
+ - Model and much of the inference code trained and created using tiny-motion-trainer
+3) Bluetooth Low Energy
+4) Hardware
+ - Arduino Nano 33 BLE Sense
