@@ -1,4 +1,8 @@
 # My-Pet-Arduino
+Gameplay
+ - GIF:\
+ ![IMG_1271](https://user-images.githubusercontent.com/72239682/126031693-65152aaa-a979-4996-a2a4-2abcac813ae9.gif)
+
 My-Pet-Arduino Project!
 - Turn your Arduino into a friendly pet.
 - This project was built with the Arduino Nano 33 BLE Sense Board.
@@ -41,9 +45,6 @@ How to play:
 ![Hnet com-image 3](https://user-images.githubusercontent.com/72239682/125383427-3c159880-e34c-11eb-9e60-7500b264df80.gif)
 - Sleep GIF:\
 ![Hnet com-image 5](https://user-images.githubusercontent.com/72239682/125384602-070a4580-e34e-11eb-9a3e-e3b9429c337f.gif)
-4) Gameplay
- - GIF:\
- ![IMG_1271](https://user-images.githubusercontent.com/72239682/126031693-65152aaa-a979-4996-a2a4-2abcac813ae9.gif)
 
 Technologies used:
 1) Website
